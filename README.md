@@ -2,8 +2,8 @@
 Repository for Paper "Portuguese Automated Fact-checking: Information Retrieval with Claim extraction" in review.
 
 
-
-├── requirements.txt -> requieremnts for all process including notebook analysis
+```bash
+├── requirements.txt -> requirements for all process including notebook analysis
 ├── utils.py
 ├── 1_validation_cleaning.ipynb -> 1st step: Data Validation and Cleaning
 ├── 2_enrichment.ipynb -> 2nd step: Data Enrichment via CSE and Claim Extraction with Gemini 1.5 Flash
@@ -17,3 +17,4 @@ Repository for Paper "Portuguese Automated Fact-checking: Information Retrieval 
     ├── experiment_analysis.ipynb
     ├── result_analysis.ipynb
     └── utils.py
+```
