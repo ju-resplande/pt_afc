@@ -1,0 +1,34 @@
+langchain-google-genai
+pandas<2.1
+akin<=0.1.0
+ftfy
+
+# notebooks
+nltk
+tqdm
+datasets
+lingua-language-detector
+urlextract
+ipykernel
+ipywidgets
+matplotlib
+SciencePlots
+tiktoken
+demoji
+plotly
+nbformat>4
+kaleido
+
+# utils.py
+requests
+python-dotenv
+
+# model train prepro
+scikit-learn
+
+# model training
+simpletransformers
+wandb
+loguru
+numpy
+python-dotenv
