@@ -2,6 +2,7 @@
 
 This repository contains the Python code and resources for the research paper: **"Portuguese Automated Fact-checking: Information Retrieval with Claim extraction"** (currently in review).
 
+
 Our work focuses on addressing the gap in Portuguese Automated Fact-Checking (AFC) by systematically enriching misinformation datasets with external web evidence. We simulate user information-seeking behavior, leverage Large Language Models (LLMs) for core claim extraction, and apply a semi-automated validation framework to enhance dataset reliability.
 
 The primary contributions of this research are:
@@ -46,6 +47,8 @@ A standardized 80/10/10 train/validation/test split was used.
 
 
 ## Running the Pipeline
+
+![image](https://github.com/user-attachments/assets/ef9ce6ae-0547-4235-92d5-f1e3c0f30660)
 
 The project is structured as a sequence of Jupyter notebooks and Python scripts:
 
