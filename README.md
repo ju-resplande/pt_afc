@@ -68,11 +68,11 @@ If you use this code or the enriched datasets in your research, please cite our 
 
 ```bibtex
 @inproceedings{
-   anonymous2025portuguese,
-   title={Portuguese Automated Fact-checking: Information Retrieval with Claim extraction},
-   author={Anonymous},
-   booktitle={The Eighth Workshop on Fact Extraction and VERification},
-   year={2025},
-   url={https://openreview.net/forum?id=MCAqDwCZAP}
+  gomes2025portuguese,
+  title={Portuguese Automated Fact-checking: Information Retrieval with Claim Extraction},
+  author={Juliana Gomes and Eduardo Garcia and Arlindo R. Galv{\~a}o Filho},
+  booktitle={Proceedings of the Eighth Workshop on Fact Extraction and VERification},
+  year={2025},
+  url={https://openreview.net/forum?id=MCAqDwCZAP}
 }
 ```
