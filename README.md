@@ -4,7 +4,7 @@ This repository contains the Python code and resources for the research paper: *
 
 Our work focuses on addressing the gap in Portuguese Automated Fact-Checking (AFC) by systematically enriching misinformation datasets with external web evidence. We simulate user information-seeking behavior, leverage Large Language Models (LLMs) for core claim extraction, and apply a semi-automated validation framework to enhance dataset reliability.
 
-**Enriched dataset: https://huggingface.co/datasets/ju-resplande/portuguese-fact-checking**
+**- Datasets: https://huggingface.co/datasets/ju-resplande/portuguese-fact-checking**
 
 ##  Installation
 1.  **Install dependencies:**
