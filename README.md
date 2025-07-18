@@ -29,13 +29,18 @@ Our work focuses on addressing the gap in Portuguese Automated Fact-Checking (AF
 
 ## Running the Pipeline
 
-![image](https://github.com/user-attachments/assets/ef9ce6ae-0547-4235-92d5-f1e3c0f30660)
-
 The project is structured as a sequence of Jupyter notebooks and Python scripts:
 
 1.  **`1_validation_cleaning.ipynb`**: Performs initial data loading, cleaning, and near-duplicate detection using the Akin library.
+
+https://github.com/user-attachments/files/21322954/cleaning.pdf
+
 2.  **`2_enrichment.ipynb`**: Implements the data enrichment process using Google CSE API and LLM-based claim extraction (Gemini 1.5 Flash).
-3.  **`3_google_factcheck.ipynb`**: Further enriches data by querying the Google FactCheck Claim Search API.
+
+[enrichment_flow.pdf](https://github.com/user-attachments/files/21322959/enrichment_flow.pdf)
+
+
+3.  **`3_google_factcheck.ipynb`**: Further enriches and validates data by querying the Google FactCheck Claim Search API.
 4.  **`4_make_splits.ipynb`**: Generates standardized train/validation/test splits for the datasets.
 5.  **`5_hypersearch.py`**: Conducts hyperparameter search for fine-tuning the Bertimbau model on the prepared datasets.
 6.  **`6_run_llm.py`**: Executes few-shot learning experiments using the Gemini 1.5 Flash LLM.
