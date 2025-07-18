@@ -2,7 +2,7 @@
 
 This repository contains the Python code and resources for the research paper: **"Portuguese Automated Fact-checking: Information Retrieval with Claim extraction"**.
 
-Our work focuses on addressing the gap in Portuguese Automated Fact-Checking (AFC) by systematically enriching misinformation datasets with external web evidence. We simulate user information-seeking behavior, leverage Large Language Models (LLMs) for core claim extraction, and apply a semi-automated validation framework to enhance dataset reliability.
+Our work focuses on addressing the gap in Portuguese Automated Fact-Checking (AFC) by systematically **enriching misinformation datasets with external web evidence** 🔎. We simulate user information-seeking behavior, leverage **Large Language Models (LLMs) for core claim extraction** 🤖, and apply a **semi-automated validation framework** 🧹 to enhance dataset reliability.
 
 - **Dataset**: https://huggingface.co/datasets/ju-resplande/portuguese-fact-checking
 - **Poster**: [poster.pdf](poster.pdf)
@@ -33,12 +33,15 @@ The project is structured as a sequence of Jupyter notebooks and Python scripts:
 
 1.  **`1_validation_cleaning.ipynb`**: Performs initial data loading, cleaning, and near-duplicate detection using the Akin library.
 
-https://github.com/user-attachments/files/21322954/cleaning.pdf
+
+<p align="center">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/e12a0986-adb8-4257-b1ab-d9b5339fa28e" />
+</p>
 
 2.  **`2_enrichment.ipynb`**: Implements the data enrichment process using Google CSE API and LLM-based claim extraction (Gemini 1.5 Flash).
-
-[enrichment_flow.pdf](https://github.com/user-attachments/files/21322959/enrichment_flow.pdf)
-
+<p align="center">
+<img width="612" height="141" alt="image" src="https://github.com/user-attachments/assets/b222fa84-4cf2-41a4-949d-90a63d8151ae" />
+</p>
 
 3.  **`3_google_factcheck.ipynb`**: Further enriches and validates data by querying the Google FactCheck Claim Search API.
 4.  **`4_make_splits.ipynb`**: Generates standardized train/validation/test splits for the datasets.
