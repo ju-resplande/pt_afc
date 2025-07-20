@@ -2,7 +2,7 @@
 
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/ju-resplande/portuguese-fact-checking)
 [![Paper](https://img.shields.io/badge/📖%20Paper-OpenReview-blue)](https://openreview.net/forum?id=MCAqDwCZAP)
-[![Poster](https://img.shields.io/badge/🖼️%20Poster-PDF-red)](poster.pdf)
+[![Poster](https://img.shields.io/badge/🖼️%20Poster-PDF-red)](docs/poster.pdf)
 
 This repository contains the official Python code and resources for the research paper: **"Portuguese Automated Fact-checking: Information Retrieval with Claim extraction"**.
 
